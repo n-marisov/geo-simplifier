@@ -1,0 +1,30 @@
+{
+  "name": "maris/geo-simplifier",
+  "description": "Пакет для упрощения географических фигур.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "libraries",
+  "authors": [
+    {
+      "name": "Марисов Николай Андреевич",
+      "email": "marisov123456789@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "maris/geo-interfaces": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maris\\Geo\\Simplifier\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maris\\Geo\\Simplifier\\Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
