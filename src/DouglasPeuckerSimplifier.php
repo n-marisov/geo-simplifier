@@ -68,7 +68,6 @@ class DouglasPeuckerSimplifier implements SimplifierInterface
 
             return array_merge($resultsSplit1, $resultsSplit2);
         }
-
         return [ $locations[0], $locations[$count - 1] ];
     }
 }
